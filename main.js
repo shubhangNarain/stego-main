@@ -222,7 +222,6 @@ var encodeMessage = function(colors, hash, message) {
 
         // set the alpha value in this pixel to 255
         // we have to do this because browsers do premultiplied alpha
-        // see for example: http://stackoverflow.com/q/4309364
         while ((loc + 1) % 4 !== 0) {
             loc++;
         }
